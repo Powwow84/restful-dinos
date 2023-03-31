@@ -1,0 +1,13 @@
+<%- include('../partials/header.ejs') %>
+
+<h1>Details about Creature <%= id %></h1>
+
+<h2>Type:</h2>
+
+<p><%= creature.type %></p>
+
+<img src="<%= creature.img_url %>" alt="<% creature.type %>">
+
+
+
+<%- include('../partials/footer.ejs') %>

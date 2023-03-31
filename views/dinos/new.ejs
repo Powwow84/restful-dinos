@@ -1,0 +1,18 @@
+<%- include('../partials/header.ejs') %>
+
+<h1>Create a new dino</h1>
+
+
+
+
+<form method="POST" action="/dinosaurs">
+    <label for="dinoType">Type</label>
+    <input id="dinoType" type="text" name="type" placeholder="dino type" />
+
+    <label for="dinoName">Name:</label>
+    <input id="dinoName" type="text" name="name" placeholder="dino type" />
+
+    <button type="submit">Create Dino</button>
+</form>
+
+<%- include('../partials/footer.ejs') %>
